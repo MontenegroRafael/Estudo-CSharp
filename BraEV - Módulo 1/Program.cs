@@ -19,8 +19,10 @@ namespace BraEV___Módulo_1
             //Operadores_Aritméticos.OpAritméticos();
             //Operadores_Relacionais.OpRelacionais();
             //Operadores_Lógicos.OpLógico();
-            Operadores_Unários.OpUnário();
-
+            //Operadores_Unários.OpUnário();
+            //Estruturas_de_Controle_if.EstruturaIf();
+            //Estruturas_de_Controle_else.EstruturaElse();
+            Estrutura_de_Controle_Switch.EstruturaSwitch();
             
 
             
