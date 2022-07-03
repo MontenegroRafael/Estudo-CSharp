@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BraEV___Módulo_1
 {
-    public class Estrutura_de_Controle_Switch
+    public class Estruturas_de_Controle_Switch
     {
         public static void EstruturaSwitch()
         {
