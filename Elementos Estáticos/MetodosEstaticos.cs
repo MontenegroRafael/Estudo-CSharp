@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BraEV___Módulo_1
+namespace Elementos_Estáticos
 {
-    public class Elementos_Estásticos
+    class MetodosEstaticos
     {
         public static float Multiplicar(float x, float y) // com static. sem a nessecidade de estânciar
         {
@@ -15,6 +15,5 @@ namespace BraEV___Módulo_1
             var a = x + y;
             return a;
         }
-        
     }
 }
