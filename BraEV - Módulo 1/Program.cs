@@ -25,6 +25,31 @@ namespace BraEV___Módulo_1
             //Estruturas_de_Controle_Switch.EstruturaSwitch();
             //Estruturas_de_Controle_While.EstruturaWhile();
             //Estruturas_de_Controle_for.EstruturaFor();
+            //Carro();
+            var result = Metodos.Multiplicar(3, 3);
+            Console.WriteLine("A multiplicação é igual a: {0}", result);
+            // ou
+            Console.WriteLine(Metodos.Multiplicar(3, 3));
+
+            Metodos calc = new Metodos();
+            Console.WriteLine(calc.Somar(6, 4));
+            //Metodos aluno1 = new Metodos();
+            //aluno1.Nome = "João";
+            //aluno1.Idade = 13;
+            //aluno1.Serie = 6;
+            //aluno1.RetornoConsole();
+            //Console.WriteLine($"O aluno {aluno1.Nome} tem {aluno1.Idade}anos e a  série é: {aluno1.Serie}");
+            
+            //var carro = new Construtores(); // o 'var' identifica o tipo, sem a necessidade de colocar 'Construtores' antes
+            //carro.Nome = "2500";
+            //carro.Marca = "Dodge Ram";
+            //carro.Potência = 6.2;
+            //Console.WriteLine($"{carro.Nome} {carro.Marca} {carro.Potência}");
+
+            //Construtores carro2 = new Construtores("Celta", "Chevrolet", 1.0);
+
+            //Console.WriteLine($"{carro2.Nome} {carro2.Marca} {carro2.Potência}");
+
 
             /*Trabalho 1
             Fazer programa que faça leitura de três notas de um determinado aluno e 
@@ -65,33 +90,47 @@ namespace BraEV___Módulo_1
             de outros números fornecidos por ele. 
             O programa só será encerrado quando o usuário desejar.   */
 
-            bool opção = true;
-            Console.WriteLine("Calculadora");
-            Console.WriteLine("Digite o valor inicial");
-            double inicial = Convert.ToDouble(Console.ReadLine());
+            //bool opção = true;
+            //Console.WriteLine("Calculadora");
+            //Console.WriteLine("Digite o valor inicial");
+            //double inicial = Convert.ToDouble(Console.ReadLine());
 
-            while (opção == true)
-            {
-                Console.WriteLine("Digite o némero que deseja somar ao número inicial");
-                double n1 = Convert.ToDouble(Console.ReadLine());
-                inicial = inicial + n1;
-                Console.WriteLine("A soma até  momento é {0}", inicial);
-                Console.WriteLine("Deseja sair do programa? 1 - sim 2 - não");
-                int saída = Convert.ToInt32(Console.ReadLine());
-                switch (saída)
-                {
-                    case 1:
-                        Console.WriteLine("Saindo do Programa.");
-                        opção = false;
-                        break;
-                    case 2:
-                        Console.WriteLine("Continua a soma.");
-                        break;
-                    default:
-                        Console.WriteLine("Opção Invalida! Retornando para soma.");
-                        break;
-                }
-            }
+            //while (opção == true)
+            //{
+            //    Console.WriteLine("Digite o némero que deseja somar ao número inicial");
+            //    double n1 = Convert.ToDouble(Console.ReadLine());
+            //    inicial = inicial + n1;
+            //    Console.WriteLine("A soma até  momento é {0}", inicial);
+            //    Console.WriteLine("Deseja sair do programa? 1 - sim 2 - não");
+            //    int saída = Convert.ToInt32(Console.ReadLine());
+            //    switch (saída)
+            //    {
+            //        case 1:
+            //            Console.WriteLine("Saindo do Programa.");
+            //            opção = false;
+            //            break;
+            //        case 2:
+            //            Console.WriteLine("Continua a soma.");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Opção Invalida! Retornando para soma.");
+            //            break;
+            //    }
+            //}
+
+
+            //void Carro()
+            //{
+            //    // Chame o construtor que não tem parâmetros.
+            //    var person1 = new Classes();
+            //    Console.WriteLine(person1.Name);
+
+            //    // Chame o construtor que tem um parâmetro.
+            //    var person2 = new Classes("Sarah Jones");
+            //    Console.WriteLine(person2.Name);
+            //    // Obtenha a representação de string da instância person2.
+            //    Console.WriteLine(person2);
+            //}
         }
     }
 }
