@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BraEV - Módulo 1", "BraEV - Módulo 1\BraEV - Módulo 1.csproj", "{EE8378A3-95D2-4140-B17F-4A9AC55B8F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elementos Estáticos", "Elementos Estáticos\Elementos Estáticos.csproj", "{253123CD-5138-4209-AFDE-98BCB4746F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elementos Estáticos", "Elementos Estáticos\Elementos Estáticos.csproj", "{253123CD-5138-4209-AFDE-98BCB4746F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parâmetros Variáveis", "ParÊmetros Variáveis\Parâmetros Variáveis.csproj", "{1C94A73A-560B-4958-B81A-A3E494B405FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parâmetros Variáveis", "ParÊmetros Variáveis\Parâmetros Variáveis.csproj", "{1C94A73A-560B-4958-B81A-A3E494B405FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Método get e set", "Método get e set\Método get e set.csproj", "{6DCB3A83-66D1-417D-9726-4B01E3DA5F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Método get e set", "Método get e set\Método get e set.csproj", "{6DCB3A83-66D1-417D-9726-4B01E3DA5F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerações", "Enumerações\Enumerações.csproj", "{A4428AB1-BF2B-4969-8586-8AAF215B59B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct e Classe", "Struct e Classe\Struct e Classe.csproj", "{E247A9C4-DF50-4D67-A41C-69CCC7411B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{6DCB3A83-66D1-417D-9726-4B01E3DA5F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCB3A83-66D1-417D-9726-4B01E3DA5F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCB3A83-66D1-417D-9726-4B01E3DA5F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4428AB1-BF2B-4969-8586-8AAF215B59B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4428AB1-BF2B-4969-8586-8AAF215B59B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4428AB1-BF2B-4969-8586-8AAF215B59B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4428AB1-BF2B-4969-8586-8AAF215B59B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E247A9C4-DF50-4D67-A41C-69CCC7411B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E247A9C4-DF50-4D67-A41C-69CCC7411B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E247A9C4-DF50-4D67-A41C-69CCC7411B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E247A9C4-DF50-4D67-A41C-69CCC7411B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
