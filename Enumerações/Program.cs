@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Enumerações
 {
     public class Program
     {
-        public enum Genero
+        public enum Genero // todas as atribuições serão enumeradas. 'Filme' recebe 0, 'Serie' recebe 1 e assim por diante.
         {
             Filme,
             Serie,
@@ -17,8 +18,10 @@ namespace Enumerações
         }
         static void Main(string[] args)
         {
-            int cod = (int)Genero.Serie; // convertendo string em 'int'
-            Console.WriteLine("A posição do item Serie é: ",cod);
+            int cod = (int)Genero.Documentário; // convertendo string em 'int'
+            Console.WriteLine($"A posição do item é:{cod}");
+            Console.WriteLine("A posição do item é: " + cod);
+            Console.WriteLine(cod);
         }
     }
 }
