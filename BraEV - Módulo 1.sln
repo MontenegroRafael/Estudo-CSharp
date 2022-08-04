@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerações", "Enumeraç�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct e Classe", "Struct e Classe\Struct e Classe.csproj", "{E247A9C4-DF50-4D67-A41C-69CCC7411B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parâmetros por Referência", "Parâmetros por Referência\Parâmetros por Referência.csproj", "{06383013-6504-4B04-86B5-E29452A068C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parâmetros por Referência", "Parâmetros por Referência\Parâmetros por Referência.csproj", "{06383013-6504-4B04-86B5-E29452A068C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herança", "Herança\Herança.csproj", "{11075734-17F2-44D0-8D6A-7B6AEDDCD679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{06383013-6504-4B04-86B5-E29452A068C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06383013-6504-4B04-86B5-E29452A068C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06383013-6504-4B04-86B5-E29452A068C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11075734-17F2-44D0-8D6A-7B6AEDDCD679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11075734-17F2-44D0-8D6A-7B6AEDDCD679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11075734-17F2-44D0-8D6A-7B6AEDDCD679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11075734-17F2-44D0-8D6A-7B6AEDDCD679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
